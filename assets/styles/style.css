@@ -16,7 +16,7 @@ body {
   text-transform: capitalize;
 }
 
-h1{
+h1 {
   position: relative;
   left: 15%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -39,14 +39,16 @@ button {
   margin: 10px 10px;
   border-radius: 50px;
   position: relative;
-  top: 50px;;
+  top: 50px;
+  ;
   border: none;
   overflow: hidden;
   cursor: pointer;
-  font-size: 16px;;
+  font-size: 16px;
+  ;
 }
 
-button:hover{
+button:hover {
   background-color: rgb(24, 52, 66);
   color: white;
 }
@@ -65,8 +67,28 @@ button:hover{
 
 }
 
-.secondTd{
+.secondTd {
   background-color: red;
 }
 
 
+
+
+/* responsive css */
+@media screen and (max-width: 480px) {
+
+
+
+  button {
+    height: 40px;
+    width: 120px;
+    left: 77px;
+    ;
+  }
+
+  h1 {
+    left: 20%;
+  }
+
+
+}
